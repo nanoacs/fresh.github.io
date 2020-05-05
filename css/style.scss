@@ -1,0 +1,22 @@
+/******************COLORES, FUENTES*******************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$principal:#13a89e;
+$oscuro:#333333;
+$gris:#868686;
+$espacios:#cccccc;
+$fuente:'Roboto', sans-serif;
+
+
+/******************ESTILOS GENERALES*******************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    color:$oscuro;
+    font-family: $fuente;
+}
