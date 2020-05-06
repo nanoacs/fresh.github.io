@@ -36,6 +36,23 @@ body{
      text-decoration: none;
  }
 
+.boton_blanco,.boton_negro{
+    text-align: center;
+    font-size: .8rem;
+    padding: .4rem .8rem;
+    border-radius: 3px;
+    color:$gris;
+}
+
+.boton_blanco{
+    background: linear-gradient(#fff,#ccc);
+}
+
+.boton_negro{
+    background: linear-gradient(rgb(94, 93, 93),#000);
+}
+
+
 /******************HEADER*******************/
 @import 'header.scss';
 
