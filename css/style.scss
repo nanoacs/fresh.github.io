@@ -24,9 +24,17 @@ body{
 
 .contenedor{
     width: 80%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin:0rem auto;
 }
+
+ ul li{
+     list-style: none;
+ }
+
+ a{
+     text-decoration: none;
+ }
 
 /******************HEADER*******************/
 @import 'header.scss';

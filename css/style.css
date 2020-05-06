@@ -15,8 +15,48 @@ body {
 
 .contenedor {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0rem auto;
 }
 
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /******************HEADER*******************/
+.header {
+  background: #333333;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+.header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h2 {
+  font-size: 2rem;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.menu ul li {
+  text-align: center;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 400;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.menu a:hover {
+  font-weight: 700;
+}
