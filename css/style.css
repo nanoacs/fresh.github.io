@@ -60,3 +60,9 @@ a {
 .menu a:hover {
   font-weight: 700;
 }
+
+/******************ANUNCIO*******************/
+.principal {
+  background: #13a89e;
+  color: #fff;
+}
