@@ -46,10 +46,16 @@ body{
 
 .boton_blanco{
     background: linear-gradient(#fff,#ccc);
+    &:hover{
+        background: linear-gradient(rgb(235, 234, 234),rgb(170, 170, 170));
+    }
 }
 
 .boton_negro{
     background: linear-gradient(rgb(94, 93, 93),#000);
+    &:hover{
+        background: linear-gradient(rgb(78, 78, 78),#000)
+    }
 }
 
 

@@ -38,9 +38,15 @@ a {
 .boton_blanco {
   background: linear-gradient(#fff, #ccc);
 }
+.boton_blanco:hover {
+  background: linear-gradient(#ebeaea, #aaaaaa);
+}
 
 .boton_negro {
   background: linear-gradient(#5e5d5d, #000);
+}
+.boton_negro:hover {
+  background: linear-gradient(#4e4e4e, #000);
 }
 
 /******************HEADER*******************/
@@ -81,7 +87,7 @@ a {
 .principal {
   background: #13a89e;
   color: #fff;
-  padding: 3rem 0;
+  padding: 4rem 0 5rem 0;
 }
 
 .principal h1 {
@@ -99,4 +105,5 @@ a {
 
 .botones_inicio {
   text-align: center;
+  padding-top: 0.5rem;
 }
