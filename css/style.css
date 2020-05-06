@@ -12,3 +12,11 @@ body {
   color: #333333;
   font-family: "Roboto", sans-serif;
 }
+
+.contenedor {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0rem auto;
+}
+
+/******************HEADER*******************/

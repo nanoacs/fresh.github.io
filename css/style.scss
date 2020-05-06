@@ -6,6 +6,7 @@ $oscuro:#333333;
 $gris:#868686;
 $espacios:#cccccc;
 $fuente:'Roboto', sans-serif;
+$border:1px solid red;
 
 
 /******************ESTILOS GENERALES*******************/
@@ -20,3 +21,12 @@ body{
     color:$oscuro;
     font-family: $fuente;
 }
+
+.contenedor{
+    width: 80%;
+    max-width: 1200px;
+    margin:0rem auto;
+}
+
+/******************HEADER*******************/
+@import 'header.scss';
