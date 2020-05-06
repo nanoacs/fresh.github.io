@@ -109,3 +109,31 @@ a {
 }
 
 /******************MAIN*******************/
+.acciones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+.acciones h2 {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1.5rem 0;
+  grid-column: span 4;
+}
+.acciones article {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.acciones article span, .acciones article h3 {
+  padding: 0.3rem 0;
+}
+.acciones article span {
+  font-size: 3rem;
+}
+.acciones article p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+.acciones article a {
+  color: #13a89e;
+}
