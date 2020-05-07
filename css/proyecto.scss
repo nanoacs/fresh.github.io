@@ -13,9 +13,11 @@
 
     .cont_img{
         background: $espacios;
+        border:1px solid $espacios;
+        background-clip: content-box;
+        padding:.2rem ;
         height: 150px;
-        border:1px solid darken($espacios, 10%);
-
+        border-radius: 2px;
         color:$gris;
         font-weight: 700;
         font-size: 1.5rem;
