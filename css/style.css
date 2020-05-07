@@ -142,3 +142,27 @@ a {
   -webkit-text-decoration: underline #13a89e;
           text-decoration: underline #13a89e;
 }
+
+.proyectos {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+.proyectos h2 {
+  text-align: center;
+  grid-column: span 3;
+  font-size: 1rem;
+  padding: 1.5rem 0;
+}
+.proyectos .cont_img {
+  background: #cccccc;
+  height: 150px;
+  border: 1px solid #b3b3b3;
+  color: #868686;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
