@@ -1,0 +1,39 @@
+.footer{
+    background: $oscuro;
+    color:$espacios;
+    padding-top: 1rem;
+}
+
+.data{
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.title_link,.title_conect,.title_subs{
+    padding-bottom: .5rem;
+    h3{
+        display: inline-block;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+}
+
+.links{
+    .content_link{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(5,auto);
+
+        a{
+            font-size: .8rem;
+            padding: .4rem  0;
+            border-bottom:1px dotted $gris;
+            color:$gris;
+        }
+    }
+
+}
