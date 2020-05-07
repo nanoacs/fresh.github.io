@@ -113,10 +113,11 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
+  padding-bottom: 3rem;
 }
 .acciones h2 {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 1.5rem 0;
   grid-column: span 4;
 }
@@ -136,4 +137,8 @@ a {
 }
 .acciones article a {
   color: #13a89e;
+}
+.acciones article a:hover {
+  -webkit-text-decoration: underline #13a89e;
+          text-decoration: underline #13a89e;
 }
