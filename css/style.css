@@ -226,3 +226,18 @@ a {
   border-bottom: 1px dotted #868686;
   color: #868686;
 }
+
+.conect .content_conect p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #868686;
+  padding-bottom: 1.5rem;
+}
+.conect .content_conect a {
+  color: #333333;
+  background: #868686;
+  padding: 0.2rem;
+  margin-right: 0.4rem;
+  font-size: 1.7rem;
+  border-radius: 7px;
+}

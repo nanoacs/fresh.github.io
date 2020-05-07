@@ -33,8 +33,29 @@
             padding: .4rem  0;
             border-bottom:1px dotted $gris;
             color:$gris;
-            
         }
     }
 
+}
+
+.conect{
+    .content_conect{
+        p{
+            font-size: .8rem;
+            line-height: 1.2rem;
+            color:$gris;
+            padding-bottom: 1.5rem;
+        }
+
+        a{
+            color:$oscuro;
+            background: $gris;
+            padding:.2rem;
+            margin-right: .4rem;
+            font-size: 1.7rem;
+
+            border-radius:7px;
+        }
+
+    }
 }
