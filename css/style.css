@@ -148,6 +148,7 @@ a {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
+  padding-bottom: 3rem;
 }
 .proyectos h2 {
   text-align: center;
@@ -168,4 +169,23 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.love {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.love h2, .love a {
+  display: inline-block;
+}
+.love h2 {
+  padding: 1.5rem 0;
+  font-size: 2.5rem;
+  margin-right: 2rem;
+}
+.love a {
+  border: 1px solid #cccccc;
+  background: linear-gradient(#fff, #e9e9e9);
 }
