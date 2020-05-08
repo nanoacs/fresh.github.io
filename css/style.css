@@ -214,6 +214,9 @@ a {
   font-size: 1.5rem;
 }
 
+.links {
+  padding-bottom: 1.5rem;
+}
 .links .content_link {
   display: grid;
   grid-gap: 0.5rem;
@@ -260,4 +263,22 @@ a {
 .subs .content_subs form input.boton_blanco {
   border: none;
   font-weight: bold;
+}
+
+.foot {
+  background: #262626;
+  padding: 1rem 0;
+}
+.foot a {
+  font-size: 0.8rem;
+  text-align: center;
+  display: inline-block;
+  color: #868686;
+}
+.foot a.bor {
+  border-left: 1px dotted #868686;
+  border-right: 1px dotted #868686;
+  padding: 0 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
