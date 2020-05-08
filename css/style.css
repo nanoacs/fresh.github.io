@@ -241,3 +241,6 @@ a {
   font-size: 1.7rem;
   border-radius: 7px;
 }
+.conect .content_conect a:hover {
+  background: linear-gradient(#868686, #6d6d6d);
+}
