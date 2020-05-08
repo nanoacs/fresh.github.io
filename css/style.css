@@ -244,3 +244,20 @@ a {
 .conect .content_conect a:hover {
   background: linear-gradient(#868686, #6d6d6d);
 }
+
+.subs .content_subs p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #868686;
+  padding-bottom: 1.5rem;
+}
+.subs .content_subs form input.mail {
+  border: none;
+  padding: 0.4rem 0.5rem;
+  border-radius: 3px;
+  width: 65%;
+}
+.subs .content_subs form input.boton_blanco {
+  border: none;
+  font-weight: bold;
+}

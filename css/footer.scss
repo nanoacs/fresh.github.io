@@ -63,3 +63,28 @@
 
     }
 }
+
+.subs{
+    .content_subs{
+        p{
+            font-size: .8rem;
+            line-height: 1.2rem;
+            color:$gris;
+            padding-bottom: 1.5rem;
+        }
+
+        form{
+            input.mail{
+                border:none;
+                padding:.4rem .5rem;
+                border-radius:3px;
+                width:65%;
+            }
+
+            input.boton_blanco{
+                border:none;
+                font-weight: bold;
+            }
+        }
+    }
+}
