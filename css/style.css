@@ -326,3 +326,27 @@ a {
     margin-bottom: 0.5rem;
   }
 }
+@media (max-width: 825px) {
+  .contenedor {
+    width: 95%;
+  }
+
+  .acciones article span {
+    font-size: 2.5rem;
+  }
+  .acciones article p {
+    font-size: 0.8rem;
+  }
+  .acciones article a {
+    font-size: 0.9rem;
+  }
+
+  .data {
+    grid-gap: 0.5rem 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .conect .content_conect a {
+    font-size: 1.3rem;
+  }
+}
