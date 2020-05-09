@@ -289,8 +289,14 @@ a {
     width: 90%;
   }
 
+  .love {
+    /* a{
+         font-size: .7rem;
+     }*/
+  }
   .love h2 {
     margin-right: 1rem;
+    font-size: 2rem;
   }
 
   .links .content_link {
