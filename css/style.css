@@ -424,4 +424,42 @@ a {
   .menu a:hover {
     background: #4d4d4d;
   }
+
+  .principal h1 {
+    font-size: 1.7rem;
+  }
+
+  .principal p {
+    font-size: 0.8rem;
+  }
+
+  .acciones {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .acciones h2 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1.5rem 0;
+    grid-column: span 1;
+  }
+  .acciones article {
+    padding: 0.5rem 2.5rem;
+  }
+  .acciones article p {
+    line-height: 1.5rem;
+  }
+
+  .proyectos {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    padding: 0.5rem 2.5rem 3rem 2.5rem;
+  }
+  .proyectos h2 {
+    text-align: center;
+    grid-column: span 1;
+    font-size: 1rem;
+    padding: 1.5rem 0;
+  }
 }
