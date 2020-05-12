@@ -141,5 +141,41 @@
 }
 
 @media(max-width:500px){
-    
+    .header{
+        .menu_icon{
+            display: inline-block;
+            font-size: 1.3rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .menu{
+        position: absolute;
+        top:50px;
+        left: 0;
+        display: block;
+        width: 100%;
+        background: $oscuro;
+        z-index: 1000;
+    }
+
+    .menu ul{
+        display: initial;
+
+        li{
+            text-align: left;
+        }
+    }
+
+    .menu a{
+        display: inline-block;
+        width: 100%;
+        padding: .5rem ;
+
+        &:hover{
+            background: lighten($oscuro, 10%);
+        }
+    }
 }
