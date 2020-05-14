@@ -89,7 +89,7 @@ a {
 
 /******************ANUNCIO*******************/
 .principal {
-  background: #13a89e;
+  background: #43bccd;
   color: #fff;
   padding: 4rem 0 5rem 0;
   z-index: -1;
@@ -141,11 +141,11 @@ a {
   margin: 0.5rem 0;
 }
 .acciones article a {
-  color: #13a89e;
+  color: #43bccd;
 }
 .acciones article a:hover {
-  -webkit-text-decoration: underline #13a89e;
-          text-decoration: underline #13a89e;
+  -webkit-text-decoration: underline #43bccd;
+          text-decoration: underline #43bccd;
 }
 
 .proyectos {
